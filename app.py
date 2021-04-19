@@ -6,7 +6,7 @@ from controllers import home, error
 app = Flask(__name__)
 app.config.from_object('config')
 
-blueprints = [home, error]
+blueprints = (home, error)
 for blueprint in blueprints:
     app.register_blueprint(blueprint)
 

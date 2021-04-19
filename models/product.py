@@ -1,10 +1,10 @@
-from models.base import db
+from models.base import base
 
 
-class Product(db.Model):
+class Product(base.Model):
 
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(128), unique=True, nullable=False)
+    id = base.Column(base.Integer, primary_key=True)
+    name = base.Column(base.String(128), unique=True, nullable=False)
 
     def __init__(self, name):
         self.name = name

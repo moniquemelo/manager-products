@@ -1,2 +1,2 @@
-from .base import db
+from .base import base
 from .product import Product

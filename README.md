@@ -24,4 +24,4 @@
       ```
       http://127.0.0.1:5000/
       ```
-      <div style="text-align: right">Manual de instalação e execução by Wes 😉</div>
+      Manual de instalação e execução by Wes 😉

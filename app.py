@@ -1,5 +1,6 @@
-from flask import Flask
+from os import environ
 
+from flask import Flask
 from models import base
 from controllers import home, error
 
@@ -15,4 +16,4 @@ with app.app_context():
     base.create_all()
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=int(environ.get("PORT", 5000)))

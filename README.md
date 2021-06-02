@@ -1,7 +1,7 @@
 # manager_product
 
 - ## Manual de instalação e execução
-  Leia com bastante atenção e carinho para instalar e executar em seu computador a aplicação, Monique ❤️
+  Leia com bastante atenção e carinho para instalar e executar em seu computador a aplicação.
   
   - ### Clonando o repositório
     Para clonar o repositório execute o seguinte comando:
